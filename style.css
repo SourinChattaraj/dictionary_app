@@ -43,6 +43,10 @@ body{
     cursor: pointer;
     color: #ffff;
     border-radius: 5px;
+    transition: 0.2s linear;
+}
+.search-box button:hover{
+    background-color: #937bfffd;
 }
 .result{
     position: relative;
@@ -64,6 +68,10 @@ body{
     font-size: 20px;
     cursor: pointer;
 }
+.vol-up:hover{
+    color: #937bfffd;
+    transition: 0.2s linear;
+}
 .result .details{
     display: flex;
     gap: 10px;
@@ -80,4 +88,8 @@ body{
     border-left: 5px solid #ae9cff;
     padding-left: 20px;
     margin-top: 30px;
+}
+.error{
+    margin-top: 80px;
+    text-align: center;
 }
